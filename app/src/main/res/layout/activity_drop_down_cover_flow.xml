@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<me.khrystal.widget.DropDownHeader
+    android:id="@+id/dropDown"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <include android:id="@+id/toolbar"
-        layout="@layout/header"/>
-
-</RelativeLayout>
+    android:layout_height="match_parent"
+    app:ddmenuSelectedIcon="@drawable/drop_down_selected_icon"
+    app:ddmenuUnselectedIcon="@drawable/drop_down_unselected_icon"
+    />

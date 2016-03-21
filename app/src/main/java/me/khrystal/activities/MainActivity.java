@@ -20,5 +20,12 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(intent);
             }
         });
+        ((Button)findViewById(R.id.button_dropcoverflow)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,DropDownCoverFlow.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
     }
 }

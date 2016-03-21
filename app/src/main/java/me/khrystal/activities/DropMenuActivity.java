@@ -18,7 +18,7 @@ import me.khrystal.adapter.GirdDropDownAdapter;
 import me.khrystal.widget.DropDownHeader;
 
 public class DropMenuActivity extends AppCompatActivity {
-    @InjectView(R.id.dropDownMenu)
+    @InjectView(R.id.dropDown)
     DropDownHeader mDropDownHeader;
 
     private GirdDropDownAdapter cityAdapter;

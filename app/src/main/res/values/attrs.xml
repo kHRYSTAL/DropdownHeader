@@ -6,4 +6,14 @@
         <attr name="ddmenuSelectedIcon" format="reference"/>
         <attr name="ddmenuUnselectedIcon" format="reference"/>
     </declare-styleable>
+        <declare-styleable name="KCoverFlow">
+            <attr name="unselectedAlpha" format="float"/>
+            <attr name="unselectedSaturation" format="float"/>
+            <attr name="unselectedScale" format="float"/>
+            <attr name="maxRotation" format="integer"/>
+            <attr name="scaleDownGravity" format="float"/>
+            <attr name="actionDistance" format="integer">
+                <enum name="auto" value="2147483647" />
+            </attr>
+        </declare-styleable>
 </resources>
